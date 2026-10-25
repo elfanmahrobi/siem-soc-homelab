@@ -1,5 +1,51 @@
-# Object file
-*.o
+# Environment variables
+.env
+.env.*
+*.env
 
-# Ada Library Information
-*.ali
+# Credentials and secrets
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Local configuration
+config/local/
+config/private/
+docker-compose.override.yml
+
+# Log files
+*.log
+logs/
+debug/
+
+# Elasticsearch data
+elasticsearch/data/
+data/nodes/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sensitive exports
+kibana/private-exports/
+production-config/
