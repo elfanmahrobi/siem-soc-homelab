@@ -347,6 +347,61 @@ The primary objectives of this project are:
 
 ---
 
+---
+
+## Implementation Evidence
+
+The following screenshots provide implementation evidence for the SIEM and SOC home lab.
+
+### VirtualBox Lab Environment
+
+The home lab consists of three virtual machines connected through the isolated `192.168.56.0/24` VirtualBox Host-Only network:
+
+- ELK Server: `192.168.56.121`
+- Kali Linux: `192.168.56.122`
+- Ubuntu Test Server: `192.168.56.123`
+
+![VirtualBox Lab Environment](./screenshots/01-virtualbox-lab-environment.png)
+
+### ELK Services Status
+
+Elasticsearch, Logstash, and Kibana are running on the centralized Ubuntu ELK Server.
+
+![ELK Services Status](./screenshots/02-elk-services-status.png)
+
+### Filebeat Validation
+
+Filebeat is installed on the Ubuntu Test Server and configured to forward Linux system and authentication events to Logstash through TCP port `5044`.
+
+![Filebeat Validation](./screenshots/03-filebeat-validation.png)
+
+### Linux Test Event
+
+A custom Linux event was generated on the Ubuntu Test Server to validate the log-forwarding pipeline.
+
+![Linux Test Event](./screenshots/04-linux-test-event.png)
+
+### Elasticsearch Index Validation
+
+Events received from the Ubuntu Test Server are stored and indexed in Elasticsearch.
+
+![Elasticsearch Linux Index](./screenshots/05-elasticsearch-linux-index.png)
+
+### Kibana Event Validation
+
+Events generated on the Ubuntu Test Server are successfully displayed in Kibana Discover.
+
+![Kibana Log Validation](./screenshots/06-kibana-log-validation.png)
+
+### SSH Security Event Validation
+
+An authorized SSH authentication test was performed from Kali Linux against the Ubuntu Test Server inside the isolated home lab.
+
+![SSH Detection Validation](./screenshots/07-ssh-detection-validation.png)
+
+> [!NOTE]
+> Screenshots will be added
+
 ## Detection Use Cases
 
 The home lab is designed to support several practical detection and monitoring scenarios.
