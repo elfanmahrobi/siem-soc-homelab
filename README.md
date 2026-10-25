@@ -49,6 +49,19 @@ The architecture is divided into two primary areas:
 1. **SIEM using the Elastic Stack**
 2. **SOAR and incident response ecosystem**
 
+## Documentation
+
+Detailed implementation documentation is available in the ./documentation/ directory.
+
+- (./documentation/01-project-overview.md)
+- ./documentation/02-lab-requirements.md
+- ./documentation/03-network-topology.md
+- ./documentation/04-elk-stack-deployment.md
+- ./documentation/05-linux-log-onboarding.md
+- ./documentation/06-log-validation.md
+- ./documentation/07-security-testing.md
+- ./documentation/08-troubleshooting.md
+
 ### Current Implementation
 
 The following components have been implemented:
