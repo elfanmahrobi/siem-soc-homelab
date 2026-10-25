@@ -726,7 +726,7 @@ The architecture diagram includes both implemented and planned components. Refer
 
 **Elfan Mahrobi**
 
-Telecommunication Engineering graduate from Politeknik Elektronika Negeri Surabaya with professional interests and experience in:
+Cybersecurity professional interests and experience in:
 
 - Security engineering
 - SIEM and SOC operations
