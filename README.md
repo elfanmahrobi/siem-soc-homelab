@@ -27,8 +27,9 @@ The long-term objective is to expand the environment into an integrated SOC ecos
 
 ## Architecture
 
-architecture/soc-architecture-diagram.png
-
+<p align="center">
+  ./architecture/soc-architecture-diagram.png
+</p>
 The architecture is divided into two primary areas:
 
 ### SIEM
