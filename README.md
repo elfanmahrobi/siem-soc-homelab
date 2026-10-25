@@ -70,10 +70,10 @@ The following components are currently included in the SIEM implementation:
 | Elasticsearch | Centralized log storage and indexing | Implemented |
 | Logstash | Log ingestion, parsing, and normalization | Implemented |
 | Kibana | Dashboard, visualization, and log analysis | Implemented |
-| Windows Log Source | Windows security and system event collection | In Progress |
-| Linux Log Source | Linux authentication and system log collection | In Progress |
+| Windows Log Source | Windows security and system event collection | Implemented |
+| Linux Log Source | Linux authentication and system log collection | Implemented |
 | Firewall Log Source | Network security event collection | In Progress |
-| Detection Rules | Identification of suspicious security events | In Development |
+| Detection Rules | Identification of suspicious security events | In Progress |
 | SOAR Integration | Security workflow automation | Planned |
 | TheHive Integration | Incident and case management | Planned |
 | MISP Integration | Threat intelligence management | Planned |
