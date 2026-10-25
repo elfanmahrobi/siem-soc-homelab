@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" alt="Kibana">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 </p>
+
 ## Overview
 
 This repository documents the development of a practical **Security Information and Event Management (SIEM)** and **Security Operations Center (SOC)** home lab.
