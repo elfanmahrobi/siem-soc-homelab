@@ -51,16 +51,31 @@ The architecture is divided into two primary areas:
 
 ## Documentation
 
-Detailed implementation documentation is available in the ./documentation/ directory.
+The following documents describe the architecture, deployment, log onboarding, validation, and security testing processes used in this SIEM and SOC home lab.
 
-- (./documentation/01-project-overview.md)
-- ./documentation/02-lab-requirements.md
-- ./documentation/03-network-topology.md
-- ./documentation/04-elk-stack-deployment.md
-- ./documentation/05-linux-log-onboarding.md
-- ./documentation/06-log-validation.md
-- ./documentation/07-security-testing.md
-- ./documentation/08-troubleshooting.md
+- [Project Overview](documentation/01-project-overview.md)  
+  Project scope, objectives, implementation phases, and expected outcomes.
+
+- [Lab Requirements](documentation/02-lab-requirements.md)  
+  Virtual ments, network requirements, and required ports.
+
+- documentation/03-network-topology.md  
+  VirtualBox network design, IP addressing, communication flows, and firewall recommendations.
+
+- documentation/04-elk-stack-deployment.md  
+  Deployment and validation procedures for Elasticsearch, Logstash, and Kibana.
+
+- documentation/05-linux-log-onboarding.md  
+  Filebeat installation, System module configuration, and Linux event forwarding.
+
+- documentation/06-log-validation.md  
+  Validation procedures for Filebeat, Logstash, Elasticsearch, and Kibana.
+
+- documentation/07-security-testing.md  
+  Controlled security-event generation using Kali Linux inside the isolated lab.
+
+- documentation/08-troubleshooting.md  
+  Common connectivity, configuration, indexing, and resource-related issues.
 
 ### Current Implementation
 
