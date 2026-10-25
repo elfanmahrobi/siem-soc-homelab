@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/SIEM-Implemented-2ea44f?style=for-the-badge" alt="SIEM Implemented">
-  <img src="https://img.shields.io/badge/SOC-In%20Development-f59e0b?style=for-the-badge" alt="SOC In Development">
-  <img src="https://img.shields.io/badge/SOAR-Planned-8b949e?style=for-the-badge" alt="SOAR Planned">
+  <img src="https://img.shields.io/badge/SOC-In%20Development-f59e0b?style=for-the-badge" alt="SOC Implemented">
+  <img src="https://img.shields.io/badge/SOAR-Planned-8b949e?style=for-the-badge" alt="SOAR In Development">
 </p>
 
 <p align="center">
