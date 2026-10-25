@@ -29,7 +29,7 @@ The long-term objective is to expand the environment into an integrated SOC ecos
 
 The following diagram represents the target architecture of the SIEM and SOC home lab.
 
-./architecture/soc-architecture-diagram.png
+![SOC Architecture](./architecture/soc-architecture-diagram.png)
 
 > **Implementation note:** The Elastic Stack SIEM components have been implemented. Shuffle, TheHive, MISP, automated notifications, and other SOAR capabilities remain part of the project roadmap.
 
