@@ -39,7 +39,7 @@ The long-term objective is to expand the SIEM environment into an integrated SOC
 
 ## Architecture
 
-./architecture/soc-architecture.png
+![SOC Architecture](./architecture/soc-architecture-diagram.png)
 
 The architecture diagram represents the target design for the SIEM and SOC home lab.
 
