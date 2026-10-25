@@ -1,7 +1,5 @@
 # SIEM and SOC Home Lab
 
-<h1 align="center">SIEM and SOC Home Lab</h1>
-
 <p align="center">
   <img src="https://img.shields.io/badge/SIEM-Implemented-2ea44f?style=for-the-badge" alt="SIEM Implemented">
   <img src="https://img.shields.io/badge/SOC-In%20Development-f59e0b?style=for-the-badge" alt="SOC In Development">
