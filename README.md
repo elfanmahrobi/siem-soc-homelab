@@ -1,10 +1,17 @@
-# SIEM and SOC Home Lab
+<h1 align="center">SIEM and SOC Home Lab</h1>
 
-https://img.shields.io/badge/Status-SIEM%20Implemented-success
-https://img.shields.io/badge/SOC-In%20Development-orange
-https://img.shields.io/badge/SOAR-Planned-lightgrey
-https://img.shields.io/badge/Platform-Elastic%20Stack-005571
-https://img.shields.io/badge/Project-Home%20Lab-blue
+<p align="center">
+  <img src="https://img.shields.io/badge/SIEM-Implemented-2ea44f?style=for-the-badge" alt="SIEM Implemented">
+  <img src="https://img.shields.io/badge/SOC-In%20Development-f59e0b?style=for-the-badge" alt="SOC In Development">
+  <img src="https://img.shields.io/badge/SOAR-Planned-8b949e?style=for-the-badge" alt="SOAR Planned">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="Elasticsearch">
+  <img src="https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white" alt="Logstash">
+  <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" alt="Kibana">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+</p>
 
 ## Overview
 
