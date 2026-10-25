@@ -59,7 +59,7 @@ The following documents describe the architecture, deployment, log onboarding, v
 - [Lab Requirements](documentation/02-lab-requirements.md)  
   Virtual ments, network requirements, and required ports.
 
-- [Network Topology](documentation/03-network-topology.md) 
+- [Network Topology](documentation/03-network-topology.md)
   VirtualBox network design, IP addressing, communication flows, and firewall recommendations.
 
 - documentation/04-elk-stack-deployment.md  
