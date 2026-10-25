@@ -618,15 +618,15 @@ The following security controls apply to the home lab:
 - [x] Deploy Elasticsearch
 - [x] Deploy Logstash
 - [x] Deploy Kibana
-- [ ] Confirm Logstash is listening on TCP/5044
-- [ ] Install Filebeat on the Ubuntu Test Server
-- [ ] Enable the Filebeat System module
-- [ ] Configure Filebeat output to `192.168.56.121:5044`
-- [ ] Validate Filebeat connectivity
-- [ ] Send test system logs
-- [ ] Send test authentication logs
+- [x] Confirm Logstash is listening on TCP/5044
+- [x] Install Filebeat on the Ubuntu Test Server
+- [x] Enable the Filebeat System module
+- [x] Configure Filebeat output to `192.168.56.121:5044`
+- [x] Validate Filebeat connectivity
+- [x] Send test system logs
+- [x] Send test authentication logs
 - [ ] Create the Kibana data view
-- [ ] Validate logs in Kibana Discover
+- [x] Validate logs in Kibana Discover
 - [ ] Perform authorized detection testing from Kali Linux
 - [ ] Create Linux security detection rules
 - [ ] Create Linux monitoring dashboards
